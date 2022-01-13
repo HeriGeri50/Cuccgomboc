@@ -1,26 +1,38 @@
 body
 {
-  background-color:sienna
+  background-image: url(https://www.kreativkid.hu/keresztes_lovag_jelmez-imgm-23443.jpg);
+  background-size: cover
+}
+
+body
+{
+  background-image: url(képek/Than_Mór_Mohácsi_csata.jpg);
+  background-size: cover
 }
 
 div
 {
-    background-color:white;
-    height: 325px;
+    height: 10000px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
-
+.container
+{
+    background-color:sienna;
+}
 .header
 {
-    color:black;
-    background-image:url(képek/nOrLsUq0DXNeLDcVcpCeD0Gc--VLSPTTSRrfjOpcwe8kpYVkRrh30SGFR5gfwgjPgMzQg9lOWtoA0YD3F2u2sZMpb3Vb377l0LeNTgZq8ICUqzqVcktsA9EB9jtLwVLYKg.png);
+    color:white    ;
+    background-image:url(Képek/mohacsii-csata-1024x576.png);
     height: 300px;
     background-size: cover;
     font-size: 60px;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
+    text-align: center;
     padding-right: 60px;
+    padding-left: 60px;
     padding-top: 100px;
-
+    padding-bottom: 350px;
 }
 
 ul
@@ -28,19 +40,37 @@ ul
     list-style-type:none;
     margin:0px;
     padding:0px;
-    background-color:sienna
+    background-color:sienna;
+    margin-left:10px;
+    margin-right:10px;
 }
 
-li
+nav li
 {
     display: inline;
 }
 
-li a{
+nav li a
+{
+    text-align:center;
     text-decoration:none;
     color:white;
     padding: 14px 16px;
+}
 
+nav li a:hover
+{
+    background-color:bisque;
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.navbar-brand
+{
+    background-color:bisque;
+    margin: 0px;
+    padding: 11px 16px;
 }
 
 footer p{
@@ -54,3 +84,25 @@ footer p{
 #osztaly{
     float: right;
 }
+
+.kepek{
+    float: left;
+    
+    width: 30%;
+    margin:10px; 
+     border-radius: 5%;
+     box-shadow: 5px 5px 5px black;
+     margin-top: 0px;
+     margin-bottom: 0px;
+}
+.kepek1{
+    float: right;
+    
+    width: 30%;
+    margin:10px; 
+     border-radius: 10%;
+     box-shadow: 5px 5px 5px black;
+     margin-top: 0px;
+     margin-bottom: 0px;
+}
+
